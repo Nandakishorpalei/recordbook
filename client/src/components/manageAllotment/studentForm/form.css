@@ -1,0 +1,43 @@
+#addTaskContainer{
+ width:60vw;
+ height: auto;
+ margin: auto;
+ text-align: left;
+ padding:0 3vw;
+}
+.header{
+ height: 5vh;
+ background-color: rgb(4, 124, 164);
+ color:white;
+ padding:1vw 3vw;
+ display: flex;
+ align-items: center;
+}
+
+#formBox{
+ padding:0 3vw;
+ border : 1px solid black;
+}
+
+.flexBox{
+    display: flex;
+    justify-content: space-between;
+    margin: 1vw 0;
+    width: auto;
+}
+.addPageButton, .flexBox input{
+    width:25vw;
+}
+.flexBox input, .labels{
+  
+  padding: 3px 0;
+}
+.flexBox input{
+    border: 0.5px solid lightgrey;
+    border-left: none;
+    width:110%;
+}
+.labels{
+    background-color: rgb(169, 237, 239);
+    width:90%;
+}
